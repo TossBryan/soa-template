@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOA TEMPLATE</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="left-side-bar">
+    <ul>
+        <li id="stats">Product Statistics</li>
+        <li id="stock-move">Stock Movements Ledger</li>
+        <li>Branch Levels</li>
+        <li>Stock Location Levels</li>
+        <li>Stock Bin Levels</li>
+        <li>Projected Stock</li>
+        <li>Sales Orders Outstanding</li>
+        <li>Purchase Orders Outstanding</li>
+        <li>Stock Movements Ledger</li>
+        <li>Period Turnover Analysis</li>
+        <li>Stock Movement Analysis</li>
+        <li>Active Shipping Lists</li>
+    </ul>
+</div>
+<div class="whole-container">
+<div class="container-1">
+<div class="product-info">
+    <h2><i class="fa-solid fa-box-open"></i> Product Name Here</h2> <!-- add product name & model number here -->
+    <table class="no-border-at-all">
+        <tr>
+          <td class="heading-info"><b>Code</b></td> 
+          <td>Code Here</td> <!-- add product name code here -->
+        </tr>
+        <tr>
+          <td class="heading-info"><b>Description</b></td>
+          <td>Description Here</td> <!-- add product name & model number here -->
+        </tr>
+        <tr>
+          <td class="heading-info"><b>Category</b></td>
+          <td>Category Here</td> <!-- add product category here in all caps. EG: 65" TV / MACHINERY KIDS KART -->
+        </tr>
+      </table>
+</div>
+<div class="stock-info">
+    <table class="no-border">
+        <tr>
+          <td class="heading-info">Stock Level</td> 
+          <td class="amount">0.00</td> 
+        </tr>
+        <tr>
+          <td class="heading-info">Available Stock Level</td>
+          <td class="amount">0.00</td> 
+        </tr>
+        <tr>
+          <td class="heading-info">Outstanding Sales Orders</td>
+          <td class="amount">0.00</td> 
+          </tr>
+          <tr>
+            <td class="heading-info">Outstanding Purchase Orders</td>
+            <td class="amount">0.00</td> 
+            </tr>
+      </table>
+</div>
+</div>
+</div>
+<div class="soa-info">
+    <h4>Ledger History</h4>
+    <table class="small">
+        <tr>
+          <th class="padding">Date</th>
+          <th class="padding">Number</th>
+          <th class="padding">Ledger</th>
+          <th class="padding">Customer</th>
+          <th class="padding">Supplier</th>
+          <th class="padding">Particulars</th>
+          <th class="padding">Stock Bin</th>
+          <th class="in-out">In</th>
+          <th class="in-out">Out</th>
+          <th class="in-out">Balance</th>
+        </tr>
+        <tr> <!-- GRN INFO GOES HERE -->
+            <td class="padding">00/00/00 00:00</td> <!-- date & time here -->
+            <td class="padding">GRN</td> <!-- grn num here -->
+            <td class="padding">Purchase</td>
+            <td class="padding"></td> <!-- leave blank -->
+            <td class="padding">Supplier Number Here</td>
+            <td class="padding">Supplier Name Here</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td> <!-- amount that came in -->
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount that came in again for the 'balance'-->
+          </tr>
+        <tr> <!-- sales info here -->
+          <td class="date">00/00/00 00.00</td>
+          <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+          <td class="padding">Sales</td>
+          <td class="padding">0019905T</td>
+          <td></td> <!-- leave blank -->
+          <td class="padding">INSTALMENT ACCOUNT</td>
+          <td class="padding">MAIN</td>
+          <td class="in-out">0.00</td>
+          <td class="in-out">0.00</td> <!-- amount sold here -->
+          <td class="in-out">0.00</td> <!-- balance here -->
+        </tr>
+        <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+          <tr> <!-- sales info here -->
+            <td class="date">00/00/00 00.00</td>
+            <td class="sinum">SI986521</td> <!-- sales invoice number here -->
+            <td class="padding">Sales</td>
+            <td class="padding">0019905T</td>
+            <td></td> <!-- leave blank -->
+            <td class="padding">INSTALMENT ACCOUNT</td>
+            <td class="padding">MAIN</td>
+            <td class="in-out">0.00</td>
+            <td class="in-out">0.00</td> <!-- amount sold here -->
+            <td class="in-out">0.00</td> <!-- balance here -->
+          </tr>
+
+</div>
+    
+</body>
+<script src="https://kit.fontawesome.com/4b78e1e5db.js" crossorigin="anonymous"></script>
+</html>
