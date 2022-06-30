@@ -85,7 +85,8 @@
           <td class="heading-soa">Number</td>
           <td class="heading-soa">Ledger</td>
           <td class="heading-soa">Customer</td>
-          <td class="heading-soa">Suppliers</td>
+          <td class="heading-soa">Supplier</td>
+          <td class="heading-soa">Particulars</td>
           <td class="heading-soa">Stock Bin</td>
           <td class="heading-soa">In</td>
           <td class="heading-soa">Out</td>
@@ -94,226 +95,377 @@
         </tr>
   
         <tr class="grey">
-          <td class="grey"><input type="text" name="date" /></td>
-          <td><input type="text" name="number" /></td>
-          <td><input type="text" name="ledger" /></td>
-          <td><input type="text" name="customers" /></td>
-          <td><input type="text" name="supplier" /></td>
-          <td><input type="text" name="stock-bin" /></td>
-          <td><input type="text" name="in" /></td>
-          <td><input type="text" name="out" /></td>
-          <td><input type="text" name="balance" /></td>
+          <td class="grey"><input type="text" name="date" placeholder="grn date here"/></td>
+          <td><input type="text" name="number" placeholder="grn number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'purchase' here"/></td>
+          <td><input type="text" name="customers"  /></td>
+          <td><input type="text" name="supplier" placeholder="supp num here"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="supplier name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out" placeholder="amount in here"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
         </tr>
         <tr class="grey">
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr class="grey">
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr class="grey">
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr class="grey">
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr class="grey">
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-          <tr>
-            <td><input type="text" name="date" /></td>
-            <td><input type="text" name="number" /></td>
-            <td><input type="text" name="ledger" /></td>
-            <td><input type="text" name="customers" /></td>
-            <td><input type="text" name="supplier" /></td>
-            <td><input type="text" name="stock-bin" /></td>
-            <td><input type="text" name="in" /></td>
-            <td><input type="text" name="out" /></td>
-            <td><input type="text" name="balance" /></td>
-          </tr>
-
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+        <tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr><tr class="grey">
+          <td class="grey"><input type="text" name="date" placeholder="sale date here"/></td>
+          <td><input type="text" name="number" placeholder="invoice number here"/></td>
+          <td><input type="text" name="ledger" placeholder="word 'sales' here"/></td>
+          <td><input type="text" name="customers" placeholder="acc num here" /></td>
+          <td><input type="text" name="supplier"/></td>
+          <td id="large"><input type="text" name="particulars" placeholder="account name here" /></td>
+          <td><input type="text" name="stock-bin" placeholder="word main here"/></td>
+          <td class="in-out"><input type="text" name="in" class="in-out"/></td>
+          <td class="in-out"><input type="text" name="out" class="in-out" placeholder="amount out here"/></td>
+          <td class="in-out"><input type="text" name="balance" class="in-out" placeholder="balance here"/></td>
+        </tr>
+       
         
     </form>
 </div>
