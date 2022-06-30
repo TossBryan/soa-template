@@ -57,10 +57,21 @@ input[type=text] {
     font-family: Heebo;
     color: #292929;
     padding-left: 5px;
+    text-transform: uppercase;
 }
 
 .heading-soa {
     font-size: 14px;
+}
+
+#product {
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.description {
+    margin-left: -120px;
+    text-transform: uppercase;
 }
 
 #stats {
